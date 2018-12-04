@@ -155,16 +155,12 @@ platform_android                        = "android"
 platform_android_wifi                   = "android_wifi"
 
 
-######################################################################################################
-launch_app                              = ["proc = Application(%s);" %params.app_name, "proc.activate();"]
-close_app                               = ["proc = Application(%s);" %params.app_name, "proc.quit();"]
-
-
-app_base_path                           = "/AXApplication[@AXTitle='%s']/AXWindow[@AXTitle='%s']/" % (params.app_name, params.app_name)
-
 ################################# WEB DRIVER INSTANCE #################################################
 driver                                  = None
-driver_host                             = 'http://localhost:4622/wd/hub'
+driver_instance                         = {'driver': driver}
+driver_host                             = 'http://localhost:{}/wd/hub'.format(params.appium_port)
+start_appium_server                     = "appium&"
+stop_appium_server                      = ""
 
 
 

@@ -27,7 +27,7 @@ drive_name = "Test4"
 sd_card_name = "sd_test"
 app_name = "Toolkit"
 feed_url    = "https://s3-us-west-2.amazonaws.com/csg-app-updates/omni/mac/test/update_mac_1.S5_QA.ini"
-
+appium_port = "4723"
 
 
 

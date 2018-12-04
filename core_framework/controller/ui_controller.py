@@ -30,13 +30,13 @@ from core_framework.commons import logger
 
 '''
 
-class commons():
+class ui_controller:
     logger          = None
 
 
 
     def __init__(self):
-        self.logger = logger.logger(__name__)
+        pass
 
 
     def get_webdriver_instance(self, platform):
@@ -51,15 +51,13 @@ class commons():
 
         driver = None
         desired_cap = {}
-        if(platform == global_cfg.platform_mac):
-            desired_cap = {'platform': params.platform, 'platformVersion': params.platformVersion,
-                           'app': params.app_name}
-        elif(platform == global_cfg.platform_android):
+        if(platform == global_cfg.platform_android):
             desired_cap = {'platform': params.platform, 'platformVersion': params.platformVersion,'app': params.app_path, 'deviceName': params.device_name,'automationName' : 'UiAutomator2'}
         elif(platform == global_cfg.platform_android_wifi):
 
-            desired_cap = {'platform': params.platform, 'platformVersion': params.platformVersion, 'app': params.app_path,
-                           'deviceName': params.device_name, 'automationName': 'UiAutomator2',"deviceId": params.ip_address}
+            desired_cap = {'platformName': 'Android', 'platformVersion': '6.0', 'app': params.app_path,
+                           'deviceName': params.device_name, 'automationName': 'UiAutomator2',
+                           "deviceId": params.ip_address}
         try:
             driver = webdriver.Remote(command_executor=global_cfg.driver_host, desired_capabilities=desired_cap)
         except WebDriverException:
