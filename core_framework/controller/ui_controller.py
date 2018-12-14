@@ -11,13 +11,14 @@ from appium import webdriver
 import time
 from selenium.common.exceptions import WebDriverException
 from core_framework.commons import logger
+import os
 
 '''
 ####################################################################################################################################################################################
 ###################################################################################################################################################################################
 # Class Name:   ui_controller
 #
-# Purpose:      Facilitates driving of UI elements using Appium/Selenium and Apple Script
+# Purpose:      Facilitates driving of UI elements using Appium/Selenium
 #
 # Arguments:    None
 #
@@ -29,6 +30,9 @@ from core_framework.commons import logger
 ####################################################################################################################################################################################
 
 '''
+
+
+from Crypto.Cipher import AES
 
 class ui_controller:
     logger          = None
@@ -64,6 +68,10 @@ class ui_controller:
             print("Failed create web driver instance")
 
         return driver
+
+
+    def start_appium_server(self):
+        os.popen(global_cfg.start_appium_server).read()
 
 
 
@@ -403,52 +411,6 @@ class ui_controller:
             return elm
         except NoSuchElementException:
             return False
-
-
-
-
-
-    ################################### MacOSX calls #####################################################
-
-    def find_and_click_button_by_text_on_main_window_on_macOSX(self,driver,text):
-        """
-        Finds button in MacOSX application main window by it's label and click
-
-        :param driver: Appium webdriver instance
-        :param text: Label of the button
-        :return: boolean (True on success ,False on failure)
-
-        """
-        try:
-            elm_path = self.find_button_elm_path_by_text(text)
-            self.find_element_by_its_xpath(elm_path, driver).click()
-            return True
-        except NoSuchElementException:
-            return False
-
-
-
-    def get_base_application_path_macOSX(self):
-        """
-        Get base application path on macOSX
-
-        :return: Application base path(eg: consists of app name and window name)
-
-        """
-        return global_cfg.app_base_path
-
-
-
-    def find_button_elm_path_by_text(self,text):
-        """
-        Finds button element path by it's text in MacOSX application main window
-
-        :param text: Label of the button
-        :return: Button element path in application
-
-        """
-        base_path = self.get_base_application_path_macOSX()
-        return base_path + "AXButton[@AXTitle='%s']" %text
 
 
 

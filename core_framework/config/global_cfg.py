@@ -159,8 +159,13 @@ platform_android_wifi                   = "android_wifi"
 driver                                  = None
 driver_instance                         = {'driver': driver}
 driver_host                             = 'http://localhost:{}/wd/hub'.format(params.appium_port)
-start_appium_server                     = "appium&"
-stop_appium_server                      = ""
+start_appium_server                     = "appium -a 127.0.0.1 -p 4723"
+stop_appium_server                      = "kill -kill `lsof -t -i tcp:4723`"
+
+application_in_test                     = {'app_name' : params.app_name}
+
+
+
 
 
 
