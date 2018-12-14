@@ -42,6 +42,26 @@ class ui_controller:
     def __init__(self):
         pass
 
+    def start_appium_server(self):
+        """
+        starts running instance of appium on port 4723
+
+        :return: boolean (True on success ,False on failure)
+
+        """
+        os.popen(global_cfg.start_appium_server).read()
+
+
+    def stop_appium_server(self):
+        """
+        Web driver Instance
+
+        :param platform: Platform
+        :return: boolean (True on success ,False on failure)
+
+        """
+        os.popen(global_cfg.stop_appium_server).read()
+
 
     def get_webdriver_instance(self, platform):
 
@@ -68,10 +88,6 @@ class ui_controller:
             print("Failed create web driver instance")
 
         return driver
-
-
-    def start_appium_server(self):
-        os.popen(global_cfg.start_appium_server).read()
 
 
 
