@@ -5,6 +5,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="core_framework.core_lib" />
+          <option value="core_framework.core_mac_lib" />
         </list>
       </option>
     </inspection_tool>
