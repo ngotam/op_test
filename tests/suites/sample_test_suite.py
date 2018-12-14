@@ -22,6 +22,8 @@ import unittest, time,os
 from core_framework.controller import ui_controller
 from core_framework.config import global_cfg,params
 
+
+
 import base64
 
 from core_framework import core_mac_lib
@@ -34,6 +36,7 @@ class sample_test_suite(unittest.TestCase):
     def __init__(self, name='runTest'):
         unittest.TestCase.__init__(self, name)
         self.uiObj = ui_controller.ui_controller()
+        '''''
         if(not global_cfg.setup_info['status']):
             driver = self.uiObj.get_webdriver_instance(global_cfg.platform_android_wifi)
             global_cfg.driver_instance['driver'] = driver
@@ -41,21 +44,28 @@ class sample_test_suite(unittest.TestCase):
             global_cfg.setup_info['status'] = True
         else:
             self.driver = global_cfg.driver_instance['driver']
+        '''''
 
-    # setup your test case here
-    def setup(self):
-        pass
+
+
 
     def test_launch_toolkit(self):
         #print(self.driver)
-        #print("Test passed...")
-
+        print("Test passed...")
         core_mac_lib.start_macOSX_application()
-        time.sleep(5)
-        core_mac_lib.find_and_click_uielement_by_text("Set Up")
+        time.sleep(8)
+        #core_mac_lib.find_and_click_uielement_by_text("Set Up")
+        #time.sleep(1)
+        #core_mac_lib.enter_system_password("Shreeji2930")
+        #time.sleep(5)
 
 
-    #clean up your test case here
-    def tear_down(self):
-        pass
+
+
+
+
+
+
+
+
 
