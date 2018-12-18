@@ -1,6 +1,4 @@
 __author__ = 'asanghavi'
-from selenium.common.exceptions import WebDriverException
-from core_framework.commons import logger
 import os
 
 

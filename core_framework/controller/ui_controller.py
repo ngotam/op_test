@@ -123,6 +123,7 @@ class ui_controller:
             return False
 
 
+
     def capture_screen_shot_of_screen(self,driver,img_name):
         """
         Finds button by content description in an android application and click
