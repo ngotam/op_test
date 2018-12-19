@@ -164,6 +164,7 @@ stop_appium_server                      = "kill -kill `lsof -t -i tcp:4723`"
 appium_log_file                         = "appium_log.txt"
 
 application_in_test                     = {'app_name' : params.app_name}
+server_state                            = {'status' : False}
 
 
 
