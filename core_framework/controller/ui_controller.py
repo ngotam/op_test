@@ -77,6 +77,9 @@ class ui_controller:
         driver = None
         desired_cap = {}
         if(platform == global_cfg.platform_android):
+            if(not global_cfg.server_state['status']):
+                self.start_appium_server()
+                global_cfg.server_state['status'] = True
             desired_cap = {'platform': params.platform, 'platformVersion': params.platformVersion,'app': params.app_path, 'deviceName': params.device_name,'automationName' : 'UiAutomator2'}
         elif(platform == global_cfg.platform_android_wifi):
 
