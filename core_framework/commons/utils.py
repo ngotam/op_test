@@ -225,3 +225,13 @@ class utils():
         return sorted_list
 
 
+    def fork_process(self, cmd,fname):
+        try:
+            fh = open(fname,'wb')
+            subprocess.Popen(str(cmd).split(' '),stdout=fh)
+            fh.close()
+        except:
+            print("Failed forking process...")
+
+
+
