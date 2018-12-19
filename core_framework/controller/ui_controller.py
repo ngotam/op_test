@@ -11,6 +11,7 @@ from appium import webdriver
 import time
 from selenium.common.exceptions import WebDriverException
 from core_framework.commons import logger
+from core_framework.commons import utils
 import os
 
 '''
@@ -36,11 +37,11 @@ from Crypto.Cipher import AES
 
 class ui_controller:
     logger          = None
-
+    utilsObj        = None
 
 
     def __init__(self):
-        pass
+        self.utilsObj = utils.utils()
 
     def start_appium_server(self):
         """
@@ -49,7 +50,7 @@ class ui_controller:
         :return: boolean (True on success ,False on failure)
 
         """
-        os.popen(global_cfg.start_appium_server).read()
+        self.utilsObj.fork_process(global_cfg.start_appium_server,global_cfg.appium_log_file)
 
 
     def stop_appium_server(self):
