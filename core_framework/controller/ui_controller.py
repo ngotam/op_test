@@ -77,22 +77,27 @@ class ui_controller:
 
         driver = None
         desired_cap = {}
+
         if (platform == global_cfg.platform_android):
-            desired_cap = {'platform': params.platform, 'platformVersion': params.platformVersion,
-                           'app': params.app_path, 'deviceName': params.device_name, 'automationName': 'UiAutomator2'}
-        elif (platform == global_cfg.platform_android_wifi):
 
             if (not global_cfg.server_state['status']):
                 self.start_appium_server()
                 time.sleep(30)
                 global_cfg.server_state['status'] = True
-            desired_cap = {'platform': params.platform, 'platformVersion': params.platformVersion, 'app': params.app_path,
+                desired_cap = {'platform': params.platform, 'platformVersion': params.platformVersion,
+                               'app': params.app_path, 'deviceName': params.device_name,
+                               'automationName': 'UiAutomator2'}
+
+
+        elif(platform == global_cfg.platform_android_wifi):
+
+            desired_cap = {'platformName': 'Android', 'platformVersion': params.platformVersion,
+                           'app': params.app_path,
                            'deviceName': params.device_name, 'automationName': 'UiAutomator2',
                            'newCommandTimeout': 120,
                            'appActivity' : params.app_activity,
                            'appWaitActivity': "*",
                            'deviceId': params.ip_address}
-
 
         try:
             driver = webdriver.Remote(command_executor=global_cfg.driver_host, desired_capabilities=desired_cap)
@@ -100,7 +105,6 @@ class ui_controller:
             print("Failed create web driver instance")
 
         return driver
-
 
 
     def wait_for_element(self,driver,element):
