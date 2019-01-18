@@ -1,35 +1,33 @@
-test_info={'deet_smoke':[]}
-test_order=['deet_smoke']
-suite_name = 'deet_smoke'
-suite_desc = "Deet Smoke Tests"
-ip_address  = "10.24.159.47:5556"
+test_info={'tote_smoke':[]}
+test_order=['tote_smoke']
+suite_name = 'tote_smoke'
+suite_desc = "Tote smoke Tests"
+ip_address = "10.24.158.118:5555"
 env="dogfood"
-userName="asanghavi"
+userName="tammyngo"
 project_id=20
 master_suite_id=0
-run_name="deet_smoke"
-suites_path = "/Users/531800/Desktop/CSG_Automation/tests/suites/toolkit_suites"
-user_email = "alpa.sanghavi@seagate.com"
-#send_email_to = ["alpa.sanghavi@seagate.com",'sean.horton@seagate.com']
-send_email_to = ["alpa.sanghavi@seagate.com"]
-email_title = "Test report for sample test suite..."
-html_rep_name   = "DEET_Smoke_Tests_Report"
-html_file_path = "reports/results/deet_smoke.html"
+run_name="tote_smoke"
+suites_path = "../suites/android_suites/"
+first_name = "Tammy"
+last_name = "Ngo"
+user_email = "tammy.ngo@seagate.com"
+send_email_to = ['tammy.ngo@seagate.com']
+email_title = "Test report for Tote android test suite..."
+html_rep_name   = "Tote_Smoke_Tests_Report"
+html_file_path = "reports/results/tote_smoke.html"
 charts_path = "reports/results/"
-html_file="deet_smoke.html"
-report_title = "Deet Smoke Tests"
-platform = "Mac"
-platformVersion="10.13.2"
-
-build_version = "1.5"
-app_path = "/Users/531800/toolkit.apk"
-device_name = "testhbauto"
+html_file="tote_smoke.html"
+report_title = "Tote Smoke Tests"
+platform = "Android"
+platformVersion="7.0"
+build_version = "1.0.0.9"
+app_path = "/Users/534026/Downloads/01.00.00.11-Sprint24-01172019-Signed.apk"
+app_activity = "com.seagate.tote.ui.splash.SplashActivity"
+device_name = "SAMSUNG-SM-N920A"
 drive_name = "Test4"
-sd_card_name = "sd_test"
-app_name = "Toolkit"
-feed_url    = "https://s3-us-west-2.amazonaws.com/csg-app-updates/omni/mac/test/update_mac_Sydney.ini"
 appium_port = "4723"
-
+app_name    = "Tote"
 
 
 

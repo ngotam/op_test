@@ -1,0 +1,3 @@
+[35m[Appium][39m Welcome to Appium v1.10.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1

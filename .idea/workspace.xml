@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d3b4cf6-8da0-4a72-9bf7-4c48166134aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/configs/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/tote_android/android_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/suites/android_suites/odonata_smoke.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/run/reports/results/sample_test_suite.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_framework/config/global_cfg.py" beforeDir="false" afterPath="$PROJECT_DIR$/core_framework/config/global_cfg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_framework/config/params.py" beforeDir="false" afterPath="$PROJECT_DIR$/core_framework/config/params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_framework/controller/ui_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/core_framework/controller/ui_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/tote_android/labels.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/tote_android/labels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/run/reports/results/deet_smoke.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/suites/android_suites/tote_smoke.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/suites/android_suites/tote_smoke.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,124 +18,57 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="323557445">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="fish" value="1" />
-          <entry key="py" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="16" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="2" />
-          <entry key="py" value="1914" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="1914" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="713550519">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="31" />
-          <entry key="py" value="4677" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="31" />
-          <entry key="Python" value="4677" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="24" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="24" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/tempfile.py">
+        <entry file="file://$PROJECT_DIR$/core_framework/config/global_cfg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="551" selection-start-line="551" selection-end-line="551" />
+            <state relative-caret-position="417">
+              <caret line="162" selection-start-line="162" selection-end-line="162" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core_framework/controller/ui_controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="148" column="12" lean-forward="true" selection-start-line="148" selection-start-column="12" selection-end-line="148" selection-end-column="12" />
+            <state relative-caret-position="354">
+              <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
               <folding>
-                <marker date="1544813943473" expanded="true" signature="1692:2137" ph="..." />
+                <element signature="e#25#86#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core_framework/config/global_cfg.py">
+        <entry file="file://$PROJECT_DIR$/tests/suites/android_suites/tote_smoke.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="112" column="10" selection-start-line="112" selection-end-line="112" selection-end-column="10" />
+            <state relative-caret-position="635">
+              <caret line="382" column="28" selection-start-line="382" selection-start-column="28" selection-end-line="382" selection-end-column="28" />
+              <folding>
+                <element signature="e#980#1005#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core_framework/controller/mac_ui_controller.py">
+        <entry file="file://$PROJECT_DIR$/projects/tote_android/labels.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="123" column="51" selection-start-line="123" selection-start-column="51" selection-end-line="123" selection-end-column="51" />
+            <state relative-caret-position="480">
+              <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/tote_android/android_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="94" column="17" lean-forward="true" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
               <folding>
-                <element signature="e#25#82#0" expanded="true" />
-                <marker date="1544752252607" expanded="true" signature="1233:1242" ph="..." />
-                <marker date="1544752252607" expanded="true" signature="1336:1472" ph="..." />
-                <marker date="1544752252607" expanded="true" signature="1733:1740" ph="..." />
-                <marker date="1544752252607" expanded="true" signature="1777:1935" ph="..." />
-                <marker date="1544752252607" expanded="true" signature="1971:2394" ph="..." />
-                <marker date="1544752252607" expanded="true" signature="3246:3434" ph="..." />
-                <marker date="1544752252607" expanded="true" signature="5570:5719" ph="..." />
+                <element signature="e#24#85#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,62 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core_framework/config/params.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="86" selection-start-line="29" selection-start-column="86" selection-end-line="29" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/suites/toolkit_suites/deet_smoke.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="48" column="68" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
-              <folding>
-                <element signature="e#981#1005#0" expanded="true" />
-                <marker date="1544765870997" expanded="true" signature="1780:2246" ph="..." />
-                <marker date="1544765870997" expanded="true" signature="2362:2752" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/toolkit_modules_mac/config/project_labels.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/toolkit_modules_mac/controller/project_base_controller.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="187" column="50" selection-start-line="187" selection-start-column="50" selection-end-line="187" selection-end-column="50" />
-              <folding>
-                <element signature="e#937#989#0" expanded="true" />
-                <marker date="1544764002644" expanded="true" signature="2542:2857" ph="..." />
-                <marker date="1544764002644" expanded="true" signature="3346:3353" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/toolkit_modules_mac/controller/project_controller.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/toolkit_modules_mac/config/project_params.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="510">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -211,23 +94,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>find_element_by_id</find>
-      <find>comObj</find>
-      <find>curr_proc_bytes</find>
-      <find>start_toolkit_installer_script_path</find>
-      <find>uninstall_toolkit</find>
-      <find>status</find>
-      <find>setup_installer</find>
-      <find>scr_cons_cmds</find>
-      <find>stop</find>
-      <find>enter</find>
-      <find>install_toolkit</find>
-      <find>format_connected_drive</find>
-      <find>launch_sec_agent</find>
-      <find>installed_lacie_installer_path</find>
-      <find>click_on_butto</find>
       <find>click_button</find>
       <find>decide</find>
+      <find>status</find>
+      <find>start_app</find>
+      <find>find_element_by_id</find>
+      <find>find_element_by_xpath</find>
+      <find>recycler</find>
+      <find>elid</find>
+      <find>scroll</find>
+      <find>cla</find>
+      <find>find_</find>
+      <find>folder</find>
+      <find>desc</find>
+      <find>find_element_by_its_xpath</find>
+      <find>UiSelector</find>
+      <find>wait</find>
+      <find>xpath</find>
+      <find>operation</find>
+      <find>uiautom</find>
+      <find>backup</find>
+      <find>uiautomator</find>
+      <find>settings</find>
+      <find>folderList</find>
+      <find>selected_folder</find>
+      <find>scrollBack</find>
+      <find>folder_name</find>
+      <find>adb</find>
+      <find>operati</find>
+      <find>stop</find>
+      <find>index</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -238,8 +134,6 @@
       <list>
         <option value="$PROJECT_DIR$/core_framework/core_lib.py" />
         <option value="$PROJECT_DIR$/tests/run/run_tests.py" />
-        <option value="$PROJECT_DIR$/projects/tote_android/labels.py" />
-        <option value="$PROJECT_DIR$/tests/suites/android_suites/tote_smoke.py" />
         <option value="$PROJECT_DIR$/core_framework/setup.py" />
         <option value="$PROJECT_DIR$/core_mac_lib.py" />
         <option value="$PROJECT_DIR$/tests/suites/sample_test_suite.py" />
@@ -249,23 +143,28 @@
         <option value="$PROJECT_DIR$/projects/toolkit_mac/modules_base_controller.py" />
         <option value="$PROJECT_DIR$/projects/toolkit_mac/config/peoject_params.py" />
         <option value="$PROJECT_DIR$/projects/toolkit_mac/controller/controller.py" />
-        <option value="$PROJECT_DIR$/core_framework/config/global_cfg.py" />
         <option value="$PROJECT_DIR$/tests/suites/deet_smoke.py" />
-        <option value="$PROJECT_DIR$/core_framework/config/params.py" />
         <option value="$PROJECT_DIR$/core_framework/controller/mac_ui_controller.py" />
         <option value="$PROJECT_DIR$/projects/toolkit_modules_mac/config/project_params.py" />
         <option value="$PROJECT_DIR$/projects/toolkit_modules_mac/controller/project_base_controller.py" />
         <option value="$PROJECT_DIR$/tests/suites/toolkit_suites/deet_smoke.py" />
         <option value="$PROJECT_DIR$/core_framework/core_mac_lib.py" />
         <option value="$PROJECT_DIR$/projects/toolkit_modules_mac/config/project_labels.py" />
+        <option value="$PROJECT_DIR$/core_framework/config/global_cfg.py" />
+        <option value="$PROJECT_DIR$/tests/suites/android_suites/odonata_smoke.py" />
         <option value="$PROJECT_DIR$/core_framework/controller/ui_controller.py" />
+        <option value="$PROJECT_DIR$/core_framework/config/params.py" />
+        <option value="$PROJECT_DIR$/projects/tote_android/labels.py" />
+        <option value="$PROJECT_DIR$/tests/suites/android_suites/tote_smoke.py" />
+        <option value="$PROJECT_DIR$/projects/tote_android/android_utils.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1680" />
-    <option name="height" value="941" />
+    <option name="x" value="878" />
+    <option name="y" value="211" />
+    <option name="width" value="1420" />
+    <option name="height" value="1110" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -273,60 +172,142 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="CSG_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSG_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CSG_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSG_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="core_framework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CSG_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSG_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="toolkit_modules_mac" type="462c0819:PsiDirectoryNode" />
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="core_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CSG_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSG_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="toolkit_modules_mac" type="462c0819:PsiDirectoryNode" />
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="core_framework" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CSG_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSG_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="toolkit_modules_mac" type="462c0819:PsiDirectoryNode" />
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="core_framework" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CSG_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSG_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="core_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="mac_ui_controller.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="core_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="ui_controller.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="core_framework" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="ui_controller.py" type="8704e2dd:PyFileNode" />
+              <item name="ui_controller" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="tote_android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="tote_android" type="462c0819:PsiDirectoryNode" />
+              <item name="android_utils.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="tote_android" type="462c0819:PsiDirectoryNode" />
+              <item name="android_utils.py" type="8704e2dd:PyFileNode" />
+              <item name="android_utils" type="dd8bbb05:PyElementNode" />
+            </path>
+            <path>
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CSG_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSG_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="run" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CSG_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CSG_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="suites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="suites" type="462c0819:PsiDirectoryNode" />
+              <item name="android_suites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="suites" type="462c0819:PsiDirectoryNode" />
+              <item name="android_suites" type="462c0819:PsiDirectoryNode" />
+              <item name="odonata_smoke.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="suites" type="462c0819:PsiDirectoryNode" />
+              <item name="android_suites" type="462c0819:PsiDirectoryNode" />
+              <item name="tote_smoke.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="suites" type="462c0819:PsiDirectoryNode" />
+              <item name="toolkit_suites" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,7 +349,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/run/run_tests.py" />
-      <option name="PARAMETERS" value="-file $USER_HOME$/tote_smoke.txt" />
+      <option name="PARAMETERS" value="-file $PROJECT_DIR$/../tote_smoke.txt" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -405,9 +386,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1680" height="941" extended-state="0" />
+    <frame x="878" y="211" width="1420" height="1110" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24231593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -419,15 +401,12 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.21709234" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -436,6 +415,11 @@
           <url>file://$PROJECT_DIR$/projects/toolkit_modules_mac/controller/project_base_controller.py</url>
           <line>165</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/tote_android/android_utils.py</url>
+          <line>462</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -448,27 +432,11 @@
     <entry file="file://$PROJECT_DIR$/lib/python3.7/site-packages/ContainerIO.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/suites/android_suites/tote_smoke.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12765">
-          <caret line="851" selection-start-line="851" selection-end-line="851" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/subprocess.py" />
     <entry file="file://$PROJECT_DIR$/bin/activate.fish">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/tote_android/labels.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -477,13 +445,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core_framework/commons/testrail.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core_framework/core_mac_lib.pyx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core_framework/commons/logger.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -511,103 +472,19 @@
           <caret line="45" column="33" selection-end-line="71" />
           <folding>
             <element signature="e#981#1005#0" expanded="true" />
-            <marker date="1544209027776" expanded="true" signature="1289:1777" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core_framework/config/global_cfg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="112" column="10" selection-start-line="112" selection-end-line="112" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core_framework/config/params.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="86" selection-start-line="29" selection-start-column="86" selection-end-line="29" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/toolkit_modules_mac/config/project_params.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core_framework/controller/mac_ui_controller.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="123" column="51" selection-start-line="123" selection-start-column="51" selection-end-line="123" selection-end-column="51" />
-          <folding>
-            <element signature="e#25#82#0" expanded="true" />
-            <marker date="1544752252607" expanded="true" signature="1233:1242" ph="..." />
-            <marker date="1544752252607" expanded="true" signature="1336:1472" ph="..." />
-            <marker date="1544752252607" expanded="true" signature="1733:1740" ph="..." />
-            <marker date="1544752252607" expanded="true" signature="1777:1935" ph="..." />
-            <marker date="1544752252607" expanded="true" signature="1971:2394" ph="..." />
-            <marker date="1544752252607" expanded="true" signature="3246:3434" ph="..." />
-            <marker date="1544752252607" expanded="true" signature="5570:5719" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core_framework/setup.py" />
+    <entry file="file://$PROJECT_DIR$/core_framework/core_mac_lib.pyx" />
+    <entry file="file:///usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/tempfile.py" />
     <entry file="file://$PROJECT_DIR$/tests/suites/toolkit_suites/deet_smoke.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="663">
           <caret line="48" column="68" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
           <folding>
             <element signature="e#981#1005#0" expanded="true" />
-            <marker date="1544765870997" expanded="true" signature="1780:2246" ph="..." />
-            <marker date="1544765870997" expanded="true" signature="2362:2752" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core_framework/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core_framework/core_mac_lib.pyx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="309" lean-forward="true" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/tempfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="551" selection-start-line="551" selection-end-line="551" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/toolkit_modules_mac/config/project_labels.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/toolkit_modules_mac/controller/project_base_controller.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="187" column="50" selection-start-line="187" selection-start-column="50" selection-end-line="187" selection-end-column="50" />
-          <folding>
-            <element signature="e#937#989#0" expanded="true" />
-            <marker date="1544764002644" expanded="true" signature="2542:2857" ph="..." />
-            <marker date="1544764002644" expanded="true" signature="3346:3353" ph="..." />
           </folding>
         </state>
       </provider>
@@ -615,12 +492,101 @@
     <entry file="file://$PROJECT_DIR$/projects/toolkit_modules_mac/controller/project_controller.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/projects/toolkit_modules_mac/controller/project_base_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="187" column="50" selection-start-line="187" selection-start-column="50" selection-end-line="187" selection-end-column="50" />
+          <folding>
+            <element signature="e#937#989#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/toolkit_modules_mac/config/project_params.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/toolkit_modules_mac/config/project_labels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/suites/android_suites/odonata_smoke.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/run/appium_log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core_framework/controller/mac_ui_controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core_framework/config/params.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/tote_android/labels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core_framework/controller/ui_controller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="148" column="12" lean-forward="true" selection-start-line="148" selection-start-column="12" selection-end-line="148" selection-end-column="12" />
+        <state relative-caret-position="354">
+          <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
           <folding>
-            <marker date="1544813943473" expanded="true" signature="1692:2137" ph="..." />
+            <element signature="e#25#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core_framework/config/global_cfg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/suites/android_suites/tote_smoke.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="382" column="28" selection-start-line="382" selection-start-column="28" selection-end-line="382" selection-end-column="28" />
+          <folding>
+            <element signature="e#980#1005#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/tote_android/android_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="94" column="17" lean-forward="true" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#85#0" expanded="true" />
           </folding>
         </state>
       </provider>

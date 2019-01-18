@@ -1,6 +1,7 @@
 __author__ = 'asanghavi'
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import ElementNotSelectableException
+from selenium.common.exceptions import TimeoutException
 from core_framework.commons import logger
 from appium.common.exceptions import NoSuchContextException
 from selenium.webdriver.support.ui import WebDriverWait
@@ -76,13 +77,23 @@ class ui_controller:
 
         driver = None
         desired_cap = {}
-        if(platform == global_cfg.platform_android):
-            desired_cap = {'platform': params.platform, 'platformVersion': params.platformVersion,'app': params.app_path, 'deviceName': params.device_name,'automationName' : 'UiAutomator2'}
-        elif(platform == global_cfg.platform_android_wifi):
+        if (platform == global_cfg.platform_android):
+            desired_cap = {'platform': params.platform, 'platformVersion': params.platformVersion,
+                           'app': params.app_path, 'deviceName': params.device_name, 'automationName': 'UiAutomator2'}
+        elif (platform == global_cfg.platform_android_wifi):
 
-            desired_cap = {'platformName': 'Android', 'platformVersion': '6.0', 'app': params.app_path,
+            if (not global_cfg.server_state['status']):
+                self.start_appium_server()
+                time.sleep(30)
+                global_cfg.server_state['status'] = True
+            desired_cap = {'platform': params.platform, 'platformVersion': params.platformVersion, 'app': params.app_path,
                            'deviceName': params.device_name, 'automationName': 'UiAutomator2',
-                           "deviceId": params.ip_address}
+                           'newCommandTimeout': 120,
+                           'appActivity' : params.app_activity,
+                           'appWaitActivity': "*",
+                           'deviceId': params.ip_address}
+
+
         try:
             driver = webdriver.Remote(command_executor=global_cfg.driver_host, desired_capabilities=desired_cap)
         except WebDriverException:
@@ -279,10 +290,6 @@ class ui_controller:
         return driver.find_element_by_id(elm).is_displayed()
 
 
-
-
-
-
     def launch_app(self,driver):
         """
         Launches application in test
@@ -373,6 +380,8 @@ class ui_controller:
             return True
         except NoSuchContextException:
             return False
+
+
 
     def get_element_path_by_text_android(self,label):
         """
@@ -470,4 +479,211 @@ class ui_controller:
         pass
 
 
+    ###########################
+        #    Added by tammy
+        ##########################
 
+    def find_element_by_android_uiautomator(self, uia_string, driver):
+
+        """
+        Finds ui element by its accessibility identifier
+
+        :param driver: Appium webdriver instance
+        :param identifier: Ui element accessibility identifier
+        :return: boolean (True on success ,False on failure)
+
+        """
+        try:
+            elm = driver.find_element_by_android_uiautomator(uia_string)
+            return elm
+        except NoSuchElementException:
+            return False
+
+    def find_element_by_id(self, identifier, driver):
+
+        """
+        Finds ui element by its accessibility identifier
+
+        :param driver: Appium webdriver instance
+        :param identifier: Ui element accessibility identifier
+        :return: boolean (True on success ,False on failure)
+
+        """
+        try:
+            elm = driver.find_element_by_id(identifier)
+            return elm
+
+        except NoSuchElementException:
+            return False
+
+    def find_elements_by_id(self, identifier, driver):
+
+        """
+        Finds ui element by its accessibility identifier
+
+        :param driver: Appium webdriver instance
+        :param identifier: Ui element accessibility identifier
+        :return: boolean (True on success ,False on failure)
+
+        """
+        try:
+            elm = driver.find_elements_by_id(identifier)
+            return elm
+        except NoSuchElementException:
+            return False
+
+    def find_button_by_text_android(self, driver, text):
+        """
+        Finds button by it's label and click
+
+        :param driver: Appium webdriver instance
+        :param text: Label of the button
+        :return: boolean (True on success ,False on failure)
+
+        """
+        try:
+            elm_path  = self.get_button_path_by_text_android(text)
+
+            elm = self.find_element_by_its_xpath(driver, elm_path)
+            return elm
+        except NoSuchElementException:
+            return False
+
+    def find_button_elm_path_by_text(self,text):
+        """
+        Finds button element path by it's text in MacOSX application main window
+
+        :param text: Label of the button
+        :return: Button element path in application
+
+        """
+        base_path = self.get_base_application_path_macOSX()
+        return base_path + "AXButton[@AXTitle='%s']" %text
+
+    def get_button_path_by_text_android(self,label):
+        """
+        Finds button by it's label and
+
+        :param driver: Appium webdriver instance
+        :param text: Label of the button
+        :return: boolean (True on success ,False on failure)
+
+        """
+        elm_path = "//android.widget.Button[@text='" + label + "']"
+        print ("button path = " + elm_path)
+        return elm_path
+
+    def scroll_up_screen_android(self, driver):
+        """
+        scrolls up screen
+
+        :param driver: Appium webdriver instance
+        :return: boolean (True on success ,False on failure)
+
+        """
+        try:
+            size = driver.get_window_size()
+            startX = size['width'] / 2
+            startY = size['height'] * 0.8
+            endX = size['width'] / 2
+            endY = size['height'] * 0.2
+
+            #   touchAction = TouchAction(driver)
+            #   touchAction.long_press(startX, endY).move_to(startY)
+            driver.swipe(startX, startY, endX, endY, 400)
+
+            time.sleep(5)
+
+        except NoSuchContextException:
+            return False
+        return True
+
+    def scroll_to_find(self, driver, item):
+        """
+        scrolls to find element by uiautomator
+
+        :param driver: Appium webdriver instance
+        :return: boolean (True on success ,False on failure)
+
+        """
+        selector = "new UiScrollable(new UiSelector().className(\"android.support.v7.widget.RecyclerView\"))." \
+                   + "scrollIntoView(new UiSelector().textContains(\"" + item + "\"))"
+        done = self.find_element_by_android_uiautomator(selector, driver)
+
+        return done
+
+    def input_text_in_element(self, elm, text, driver):
+        """
+        Finds button by content description in an android application and click
+
+        :param driver: Webdriver instance
+        :param text: Label of the button
+        :return: boolean (True on success ,False on failure)
+
+        """
+
+        try:
+            elm.click()
+            elm.send_keys(text)
+
+        #   elm = driver.find_element_by_id(elm_id).send_keys(text)
+        except NoSuchElementException:
+            return False
+
+    def clear_text_from_element(self, elm):
+        """
+        Finds button by content description in an android application and click
+
+        :param driver: Appium webdriver instance
+        :param text: Label of the button
+        :return: boolean (True on success ,False on failure)
+
+        """
+        try:
+            elm.clear()
+        except NoSuchElementException:
+            return False
+
+    def is_displayed(self, elm):
+        """
+        :param elm: element of ui
+        :return: boolean (True on success ,False on failure)
+
+        """
+        return elm.is_displayed()
+
+    def wait_for_element_from_id(self,driver, identifier):
+        """
+        waits up to 2 mins for the element to be visible
+
+        :param driver: appium webdriver instance
+        :param element: element on which call is waiting to be visible
+        :return: boolean (True on success ,False on failure)
+
+        """
+
+        try:
+            WebDriverWait(driver, global_cfg.max_timeout).until(EC.presence_of_element_located((By.ID, identifier)))
+            return True
+        except NoSuchElementException:
+            return False
+
+    def is_path_visible(self, driver, xpath, timeout):
+        done = False
+        try:
+            WebDriverWait(driver, timeout).until(EC.presence_of_element_located((By.XPATH, xpath)))
+            done = True
+
+        except TimeoutException:
+            return False
+        return done
+
+    def is_path_not_visible(self, driver, xpath, timeout):
+        done = False
+        try:
+            WebDriverWait(driver, timeout).until_not(EC.presence_of_element_located((By.XPATH, xpath)))
+            done = True
+
+        except TimeoutException:
+            return False
+        return done
