@@ -99,9 +99,11 @@ class controller():
                 break
         return suite_id
 
-    def getUserIdFromEmail(self):
-        user_id = global_cfg.client.send_get('get_user_by_email/&email=alpa.sanghavi@nauto.com')
+    def getUserIdFromEmail(self,email):
+        user_id = global_cfg.client.send_get('get_user_by_email/&email={}'.format(email))
         return user_id
+
+
 
     def addSection(self,name):
 
@@ -124,17 +126,16 @@ class controller():
         print(global_cfg.suite_id)
         return int(suite_id['id'])
 
-    def updateTestResultInfo(self, caseId, result):
-
+    def update_result_with_steps(self,caseId, result, comment):
         dic_name = "dic" + str(caseId)
         dic_name = {}
         dic_name['case_id'] = caseId
         if (result):
-            dic_name['comment'] = global_cfg.test_pass_comm
+            dic_name['comment'] = comment
             dic_name['status_id'] = global_cfg.status_pass
 
         else:
-            dic_name['comment'] = global_cfg.test_fail_comm
+            dic_name['comment'] = comment
             dic_name['status_id'] = global_cfg.status_fail
 
         global_cfg.test_info_list = []
@@ -148,12 +149,31 @@ class controller():
             global_cfg.tests_failed = global_cfg.tests_failed + 1
         global_cfg.total_tests      = global_cfg.total_tests + 1
 
-    def findTestResult(self, res, successCriteria):
-        return self.comobj.findTestResult(res, successCriteria)
 
+    def updateTestResultInfo(self, caseId, result):
 
-    def update_html(self,arg1,field_to_update,search_field):
-        self.comobj.update_html(arg1,field_to_update,search_field)
+        dic_name = "dic" + str(caseId)
+        dic_name = {}
+        dic_name['case_id'] = caseId
+        if (result):
+            dic_name['comment'] = global_cfg.test_pass_comm
+            dic_name['status_id'] = global_cfg.status_pass
+
+        else:
+            dic_name['comment'] = global_cfg.test_pass_comm
+            dic_name['status_id'] = global_cfg.status_fail
+
+        global_cfg.test_info_list = []
+        global_cfg.test_info_list.append(dic_name)
+        global_cfg.test_result_dic["results"] = {}
+        global_cfg.test_result_dic["results"] = global_cfg.test_info_list
+        global_cfg.client.send_post('add_results_for_cases/%s' % global_cfg.run_id, global_cfg.test_result_dic)
+        if(result):
+            global_cfg.tests_passed = global_cfg.tests_passed + 1
+        else:
+            global_cfg.tests_failed = global_cfg.tests_failed + 1
+        global_cfg.total_tests      = global_cfg.total_tests + 1
+
 
     def validate_contents_list(self,list_exp,list_actual):
         bItemFound = True
