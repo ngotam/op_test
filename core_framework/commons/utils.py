@@ -15,14 +15,16 @@ __author__ = 'asanghavi'
 
 import sys,os,subprocess,imaplib,email
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from PIL import Image
 
 import re,os,sys,glob,time
-from pytesseract import image_to_string
 from operator import itemgetter
 
 import random
-
+import PIL
+from PIL import ImageFont
+from pytesseract import image_to_string
+from PIL import Image
+from PIL import ImageDraw, ImageFilter
 
 class utils():
 
@@ -117,6 +119,14 @@ class utils():
         with open(arg1, "a") as arg1:
             arg1.write(arg2 + "\n")
 
+    def search_field_in_string(self,field,search_str):
+        bresult = False
+        volume_str_info = re.search(r'%s'%field, search_str)
+        if (volume_str_info):
+            ser_str = volume_str_info.group(0)
+            if(ser_str == field):
+                bresult = True
+        return bresult
 
     def searchInFile(self,arg1,arg2):
         """
@@ -219,19 +229,53 @@ class utils():
             return False
 
     # Sort given builds list needed for reporting
-    # are required for reports and also the same to be uploaded to Browserstack
+    # are required for report and also the same to be uploaded to Browserstack
     def sort_builds(app_builds):
         sorted_list = sorted(app_builds, key=itemgetter(0))
         return sorted_list
 
+    def formulate_err_msg(self,test_name,exp_screen):
+        return test_name + " failed expected screen with label " + exp_screen + " not found"
 
-    def fork_process(self, cmd,fname):
+    def generate_new_image_file(self, file_name):
+        nouns = ["Peacock", "Crow", "Rabbit", "Bear", "Pig", "Wolf", "Tiger", "Lion", "Elephant", "Bobcat", "Racoon",
+                 "Hummingbird", "Sparrow", "Pigeon", "Eagle", "Vulture", "Ostrich"]
+        verbs = ["Jumps", "Runs", "Blows", "Laughs", "Humps", "Hits", "Dumps", "Glides", "Drags", "Leaps", "Fumbels",
+                 "Digs", "Sits", "Pumps", "Slacks", "Falls", "Speeds", "Nags", "Growls", "Whines", "Enjoys"]
+        Adverbs = ["Slowly", "Merrily", "Lovingly", "Gracefully", "TactFully", "Carefully", "Blissfully", "Slowly",
+                   "Hastily", "Timely", "Awfully", "Playfully", "Cutely", "Momentarily", "Sadly", "Abnoxiously"]
+        sentence = random.choice(nouns) + " " + random.choice(verbs) + " " + random.choice(Adverbs)
+        font = ImageFont.truetype("/Library/Fonts/Apple Chancery.ttf", 350)
+
+        img = Image.new("RGBA", (600, 600), (random.choice((0, 255)), random.choice((0, 255)), random.choice((0, 255))))
+        draw = ImageDraw.Draw(img)
+        draw.text((10, 100), '%s' % sentence,
+                  (random.choice((0, 255)), random.choice((0, 255)), random.choice((0, 255))), font=font)
+        draw.chord((100, 75, 125, 100), 0, 360, fill='green')
+        draw.chord((75, 100, 100, 125), 0, 360, fill='blue')
+        draw.chord((125, 125, 150, 150), 0, 360, fill='yellow')
+        draw.chord((125, 125, 150, 150), 0, 360, fill='yellow')
+        draw = ImageDraw.Draw(img)
+        img.save(file_name)
+        time.sleep(2)
+
+    def modify_file_filter(self,file_name):
+        im = Image.open(file_name)
+        im_sharp = im.filter(ImageFilter.SHARPEN)
+        im_sharp.save(file_name)
+        time.sleep(2)
+
+
+    def modify_file_size(self, file_name,width, height):
+        im = Image.open(file_name)
+        im_sharp = im.resize(1025,1280)
+        im_sharp.save(file_name)
+        time.sleep(2)
+
+    def fork_process(self, cmd, fname):
         try:
-            fh = open(fname,'wb')
-            subprocess.Popen(str(cmd).split(' '),stdout=fh)
+            fh = open(fname, 'wb')
+            subprocess.Popen(str(cmd).split(' '), stdout=fh)
             fh.close()
         except:
             print("Failed forking process...")
-
-
-

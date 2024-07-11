@@ -6,6 +6,11 @@
         <list>
           <option value="core_framework.core_lib" />
           <option value="core_framework.core_mac_lib" />
+          <option value="xray_lib" />
+          <option value="PIL._imaging" />
+          <option value="win32api" />
+          <option value="core_lib" />
+          <option value="core_framework.core_tele_lib" />
         </list>
       </option>
     </inspection_tool>

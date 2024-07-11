@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>op_smoke_tests</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">op_smoke_tests</h2>
+                <p class='attribute'><strong>Start Time: </strong>2021-10-22 16:46:26</p>
+                <p class='attribute'><strong>Duration: </strong>177.995s</p>
+                <p class='attribute'><strong>Status: </strong>Fail: 1, Error: 2</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>results</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                            <tr class='danger'>
+                                <td class="col-xs-9">test_080_verify_copy_multi_sources_status_completed (op_smoke.op_smoke)</td>
+                                <td class="col-xs-3">
+                                    <span class="label label-danger">
+                                        
+                                            Fail
+                                        
+                                    </span>
+                                    
+                                        &nbsp<button class="btn btn-default btn-xs">View</button>
+                                    
+                                </td>
+                            </tr>
+                            
+                                <tr style="display:none;">
+                                    <td class="col-xs-9">
+                                        <p>AssertionError</p>
+                                        <p>False is not true : ['get wrong type Delete', 'get wrong activity Aborted 2021-10-22 | 03:34:09 PM', 'get wrong destination --', 'fail to verify inspect activity with multi sources', 'get wrong type Delete', 'get wrong activity Aborted 2021-10-22 | 03:34:09 PM', 'get wrong destination --', 'fail to verify inspect activity with multi sources', 'get wrong activity Failed 2021-10-22 | 03:34:08 PM', 'get wrong destination Volume-1', 'fail to verify inspect activity with multi sources', 'get wrong destination Volume-1', 'fail to verify inspect activity with multi sources', 'get wrong type Delete', 'get wrong activity Aborted 2021-10-22 | 03:24:50 PM', 'get wrong destination --', 'fail to verify inspect activity with multi sources', 'get wrong type Delete', 'get wrong activity Aborted 2021-10-22 | 03:24:50 PM', 'get wrong destination --', 'fail to verify inspect activity with multi sources', 'get wrong activity Aborted 2021-10-22 | 03:24:50 PM', 'get wrong destination Volume-1', 'fail to verify inspect activity with multi sources', 'get wrong activity Aborted 2021-10-22 | 03:24:50 PM', 'get wrong destination Volume-1', 'fail to verify inspect activity with multi sources']</p>
+                                    </td>
+                                </tr>
+                            
+                        
+                            <tr class='warning'>
+                                <td class="col-xs-9">test_081_verify_delete_action_completed (op_smoke.op_smoke)</td>
+                                <td class="col-xs-3">
+                                    <span class="label label-warning">
+                                        
+                                            Error
+                                        
+                                    </span>
+                                    
+                                        &nbsp<button class="btn btn-default btn-xs">View</button>
+                                    
+                                </td>
+                            </tr>
+                            
+                                <tr style="display:none;">
+                                    <td class="col-xs-9">
+                                        <p>ValueError</p>
+                                        <p>exception on verify inspect delete action</p>
+                                    </td>
+                                </tr>
+                            
+                        
+                            <tr class='warning'>
+                                <td class="col-xs-9">test_082_verify_import_folders_after_completed (op_smoke.op_smoke)</td>
+                                <td class="col-xs-3">
+                                    <span class="label label-warning">
+                                        
+                                            Error
+                                        
+                                    </span>
+                                    
+                                        &nbsp<button class="btn btn-default btn-xs">View</button>
+                                    
+                                </td>
+                            </tr>
+                            
+                                <tr style="display:none;">
+                                    <td class="col-xs-9">
+                                        <p>TypeError</p>
+                                        <p>'NoneType' object is not iterable</p>
+                                    </td>
+                                </tr>
+                            
+                        
+                        <tr>
+                            <td>
+                               Total Test Runned: 3
+                            </td>
+                            <td>
+                                <span>Fail: 1, Error: 2</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html>

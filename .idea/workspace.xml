@@ -1,114 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d3b4cf6-8da0-4a72-9bf7-4c48166134aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core_framework/controller/test_mgm.py" beforeDir="false" afterPath="$PROJECT_DIR$/core_framework/controller/test_mgm.py" afterDir="false" />
-    </list>
+    <list default="true" id="0d3b4cf6-8da0-4a72-9bf7-4c48166134aa" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1320959674">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="89" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="89" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core_framework/config/global_cfg.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2385">
-              <caret line="162" selection-start-line="162" selection-end-line="162" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core_framework/controller/ui_controller.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
-              <folding>
-                <element signature="e#25#86#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/suites/android_suites/tote_smoke.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5625">
-              <caret line="382" column="28" selection-start-line="382" selection-start-column="28" selection-end-line="382" selection-end-column="28" />
-              <folding>
-                <element signature="e#980#1005#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/tote_android/labels.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/tote_android/android_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
-              <folding>
-                <element signature="e#24#85#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core_framework/controller/test_mgm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="158" column="59" lean-forward="true" selection-start-line="158" selection-start-column="59" selection-end-line="158" selection-end-column="59" />
-              <folding>
-                <marker date="1549924176511" expanded="true" signature="4957:5859" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core_framework/config/params.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -119,175 +20,80 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>click_button</find>
-      <find>decide</find>
-      <find>status</find>
-      <find>start_app</find>
-      <find>find_element_by_id</find>
-      <find>find_element_by_xpath</find>
-      <find>recycler</find>
-      <find>elid</find>
+      <find>uiObj</find>
+      <find>failed checking issue</find>
+      <find>winuiConObj</find>
+      <find>Failed chec</find>
+      <find>utils</find>
+      <find>Failed to update</find>
+      <find>testconObj</find>
+      <find>data_no</find>
+      <find>click_device_ex</find>
+      <find>source</find>
+      <find>Fail to update</find>
+      <find>mouse</find>
+      <find>update_test_info</find>
+      <find>accept</find>
+      <find>warning</find>
+      <find>disk_u</find>
+      <find>get_row</find>
+      <find>Notify</find>
+      <find>update_test_run</find>
+      <find>control_type</find>
+      <find>update_run</find>
+      <find>verify_data_activity</find>
+      <find>notify</find>
       <find>scroll</find>
-      <find>cla</find>
-      <find>find_</find>
-      <find>folder</find>
-      <find>desc</find>
-      <find>find_element_by_its_xpath</find>
-      <find>UiSelector</find>
-      <find>wait</find>
-      <find>xpath</find>
-      <find>operation</find>
-      <find>uiautom</find>
-      <find>backup</find>
-      <find>uiautomator</find>
-      <find>settings</find>
-      <find>folderList</find>
-      <find>selected_folder</find>
-      <find>scrollBack</find>
-      <find>folder_name</find>
-      <find>adb</find>
-      <find>operati</find>
-      <find>stop</find>
-      <find>index</find>
+      <find>dump_tree</find>
+      <find>DJI Fly</find>
+      <find>print_con</find>
+      <find>LaCie Rugged RAID Pro</find>
+      <find>destination</find>
+      <find>SSD</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Lyve Pilot SC</replace>
+      <replace>params.app_name</replace>
+      <replace>LyvePilotSC</replace>
+      <replace>self.op</replace>
+      <replace>self.assertTrue(bresult,</replace>
+      <replace>testconObj</replace>
+      <replace>self.testmgmObj</replace>
+      <replace>Notify</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/core_framework/core_lib.py" />
-        <option value="$PROJECT_DIR$/tests/run/run_tests.py" />
-        <option value="$PROJECT_DIR$/core_framework/setup.py" />
-        <option value="$PROJECT_DIR$/core_mac_lib.py" />
-        <option value="$PROJECT_DIR$/tests/suites/sample_test_suite.py" />
-        <option value="$PROJECT_DIR$/core_framework/controller/mac_osx_ui_controller.py" />
-        <option value="$PROJECT_DIR$/tests/suites/toolkit_suites/danni_smoke.py" />
-        <option value="$PROJECT_DIR$/projects/toolkit_mac/base_controller.py" />
-        <option value="$PROJECT_DIR$/projects/toolkit_mac/modules_base_controller.py" />
-        <option value="$PROJECT_DIR$/projects/toolkit_mac/config/peoject_params.py" />
-        <option value="$PROJECT_DIR$/projects/toolkit_mac/controller/controller.py" />
-        <option value="$PROJECT_DIR$/tests/suites/deet_smoke.py" />
-        <option value="$PROJECT_DIR$/core_framework/controller/mac_ui_controller.py" />
-        <option value="$PROJECT_DIR$/projects/toolkit_modules_mac/config/project_params.py" />
-        <option value="$PROJECT_DIR$/projects/toolkit_modules_mac/controller/project_base_controller.py" />
-        <option value="$PROJECT_DIR$/tests/suites/toolkit_suites/deet_smoke.py" />
-        <option value="$PROJECT_DIR$/core_framework/core_mac_lib.py" />
-        <option value="$PROJECT_DIR$/projects/toolkit_modules_mac/config/project_labels.py" />
-        <option value="$PROJECT_DIR$/core_framework/config/global_cfg.py" />
-        <option value="$PROJECT_DIR$/tests/suites/android_suites/odonata_smoke.py" />
-        <option value="$PROJECT_DIR$/core_framework/controller/ui_controller.py" />
-        <option value="$PROJECT_DIR$/core_framework/config/params.py" />
-        <option value="$PROJECT_DIR$/projects/tote_android/labels.py" />
-        <option value="$PROJECT_DIR$/tests/suites/android_suites/tote_smoke.py" />
-        <option value="$PROJECT_DIR$/projects/tote_android/android_utils.py" />
-        <option value="$PROJECT_DIR$/core_framework/controller/test_mgm.py" />
-      </list>
-    </option>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="260" />
-    <option name="y" value="23" />
-    <option name="width" value="1420" />
-    <option name="height" value="965" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectId" id="1lUNecbEB7wfJwm05v7dJIF8Cch" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="core_framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="core_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="core_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="core_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="tote_android" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="run" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="suites" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="suites" type="462c0819:PsiDirectoryNode" />
-              <item name="android_suites" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="csg_automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="csg_automation" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="suites" type="462c0819:PsiDirectoryNode" />
-              <item name="toolkit_suites" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/suites/optimus_suites" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\534026\optimus_win_auto\tests\suites\optimus_suites" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/core_framework" />
       <recent name="$PROJECT_DIR$/tests/suites/toolkit_suites" />
@@ -309,7 +115,7 @@
   </component>
   <component name="RunManager">
     <configuration name="run_tests" type="PythonConfigurationType" factoryName="Python">
-      <module name="CSG_Automation" />
+      <module name="op_automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -322,7 +128,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/run/run_tests.py" />
-      <option name="PARAMETERS" value="-file $PROJECT_DIR$/../tote_smoke.txt" />
+      <option name="PARAMETERS" value="-file C:\Users\534026\optimus_win_auto\op_smoke.txt" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -331,6 +137,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -358,31 +165,28 @@
       <configuration name="Unittests in sample_test_suite.py" configurationId="tests" />
     </history-entry>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="260" y="23" width="1420" height="965" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24231593" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32988507" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40114942" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.21700224" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+      <is-preview-enabled value="true" />
+    </todo-panel>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -397,170 +201,460 @@
           <line>462</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>180</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>223</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>226</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>2021</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/config/op_params.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/controller/project_base_controller.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/controller/project_base_controller.py</url>
+          <line>208</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>1266</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>1282</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>348</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>2954</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>856</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>1121</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>159</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>167</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>2202</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>2194</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>2208</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>2212</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>2198</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>2737</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>642</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>708</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/controller/project_base_controller.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>3180</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core_framework/controller/test_mgm_con.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>1358</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>237</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>221</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>4036</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>455</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core_framework/config/params_Copy.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core_framework/config/global_cfg.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core_framework/config/global_cfg.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core_framework/config/global_cfg.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>5068</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>5048</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>217</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>1304</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>873</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>847</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>226</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>240</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>338</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>439</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>196</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>1003</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>243</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>203</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>1204</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>1047</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>2287</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>3059</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>220</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>224</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>4174</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core_framework/config/params.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core_framework/config/params.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>2413</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/config/project_params.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>845</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core_framework/config/params.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>282</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core_framework/config/params.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/config/project_params.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/config/project_params.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/config/project_params.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core_framework/config/params.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core_framework/config/params.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>266</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/config/project_params.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/suites/optimus_suites/op_smoke.py</url>
+          <line>390</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/config/project_params.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/config/project_params.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>500</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>476</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>2586</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>3547</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/projects/optimus_win/ui_screens/op_tasks.py</url>
+          <line>3557</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core_framework/core_lib.pyx" />
-    <entry file="file://$PROJECT_DIR$/lib/python3.7/site-packages/MicImagePlugin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/python3.7/site-packages/ContainerIO.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/subprocess.py" />
-    <entry file="file://$PROJECT_DIR$/bin/activate.fish">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core_framework/commons/testrail.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core_framework/commons/logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/run/run_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/suites/toolkit_suites/danni_smoke.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/suites/sample_test_suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="45" column="33" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core_framework/setup.py" />
-    <entry file="file://$PROJECT_DIR$/core_framework/core_mac_lib.pyx" />
-    <entry file="file:///usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/tempfile.py" />
-    <entry file="file://$PROJECT_DIR$/tests/suites/toolkit_suites/deet_smoke.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="48" column="68" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/toolkit_modules_mac/controller/project_controller.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/toolkit_modules_mac/controller/project_base_controller.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="187" column="50" selection-start-line="187" selection-start-column="50" selection-end-line="187" selection-end-column="50" />
-          <folding>
-            <element signature="e#937#989#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/toolkit_modules_mac/config/project_params.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/toolkit_modules_mac/config/project_labels.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/suites/android_suites/odonata_smoke.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/run/appium_log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core_framework/controller/mac_ui_controller.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core_framework/config/global_cfg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2385">
-          <caret line="162" selection-start-line="162" selection-end-line="162" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core_framework/controller/ui_controller.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
-          <folding>
-            <element signature="e#25#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/suites/android_suites/tote_smoke.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5625">
-          <caret line="382" column="28" selection-start-line="382" selection-start-column="28" selection-end-line="382" selection-end-column="28" />
-          <folding>
-            <element signature="e#980#1005#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/tote_android/labels.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="54" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core_framework/config/params.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/tote_android/android_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
-          <folding>
-            <element signature="e#24#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core_framework/controller/test_mgm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="158" column="59" lean-forward="true" selection-start-line="158" selection-start-column="59" selection-end-line="158" selection-end-column="59" />
-          <folding>
-            <marker date="1549924176511" expanded="true" signature="4957:5859" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

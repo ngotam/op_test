@@ -1,18 +1,20 @@
 op_loc                          = "http://csg-apps.blackpearlsystems.net/Win/optimus/"
-latest_loc                      = op_loc + "1.0/latest/"
+latest_loc                      = op_loc + "1.98/latest/"
+
 #build_version                   = "1.0/1.0.534/"
 build_version                   = ""
 op_url                          = ""
 op_installer_file               = ""
-appdata_path                    = r"C:\Users\534026\AppData\Local\Programs\Lyve Pilot SC\Lyve Pilot SC.exe"
+appdata_path                    = r"C:\Users\534026\AppData\Local\Programs\Lyve Client\Lyve Client.exe"
 app_install_folder              = "C:\\Users\\534026\\Downloads\\"
 log_folder                      = "C:\\Users\\534026\\Downloads\\op_log\\"
-log_location                    = r"C:\Users\534026\AppData\Roaming\Lyve Pilot SC\logs"
-data_location                   = r"C:\Users\534026\AppData\Roaming\Lyve Pilot SC\Data"
+log_location                    = r"C:\Users\534026\AppData\Roaming\Lyve Client\logs"
+data_location                   = r"C:\Users\534026\AppData\Roaming\Lyve Client\Data"
 build_download_status           = {'status': True}
 install_status                  = {'status': True}
-app_name                        = 'Lyve Pilot SC'
+app_name                        = 'Lyve Client'
+lyveHub_name                    = "Sign in with Auth0"
 workflow_name                   = ""
 file_version                    = ""
-latest_file                     = "Lyve_Pilot_SC-1.0.560" 
+latest_file                     = "Lyve_Client-1.0.735"
 app_file                        = app_install_folder + latest_file

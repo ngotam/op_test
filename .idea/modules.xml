@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CSG_Automation.iml" filepath="$PROJECT_DIR$/.idea/CSG_Automation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/op_automation.iml" filepath="$PROJECT_DIR$/.idea/op_automation.iml" />
     </modules>
   </component>
 </project>

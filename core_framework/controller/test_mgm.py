@@ -42,7 +42,7 @@ class controller():
 
     def addRun_with_selected_tests(self,name,suite_id,case_list):
         cases = global_cfg.client.send_get('get_cases/%d&suite_id=%d' % (global_cfg.project_id, suite_id))
-
+       # print("cases = " + str(cases))
         if(case_list):
             for case in case_list:
                 if(not case in cases):
@@ -52,9 +52,12 @@ class controller():
 
         data = {"suite_id": suite_id, "name": '%s'%name,
                 "assignedto_id": global_cfg.userId, "include_all": global_cfg.run_all, "case_ids": case_list}
+
         headers = {'content-type': 'application/json'}
         res_dic = global_cfg.client.send_post('add_run/%d' % global_cfg.project_id, data)
+      #  print("res_dic = " + str(res_dic))
         global_cfg.run_id = res_dic['id']
+       # print("run_id = " + str(global_cfg.run_id))
 
     def getCaseIdFromName(self,name):
         case_id = 0
@@ -88,12 +91,15 @@ class controller():
             if(name == section['name']):
                 sec_id = section['id']
                 break
+
         return sec_id
 
     def getSuiteIdFromName(self,name):
         suite_id = 0
         suites = global_cfg.client.send_get('get_suites/%d' % (global_cfg.project_id))
         for suite in suites:
+            #print("suite = " + str(suite))
+
             if(name == suite['name']):
                 suite_id = suite['id']
                 break
@@ -104,13 +110,11 @@ class controller():
         return user_id
 
 
-
     def addSection(self,name):
 
         data = {"suite_id": '%d' % global_cfg.master_suite_id, "name": '%s' % name}
         sec_id = global_cfg.client.send_post('add_section/%d' % global_cfg.project_id, data)
         global_cfg.section_id = sec_id['id']
-        print(global_cfg.section_id)
 
     def addSection_for_suite(self,name,suite_id):
 
@@ -123,7 +127,7 @@ class controller():
         data = {"name":'%s' %name,"description":'%s'%desc}
         suite_id = global_cfg.client.send_post('add_suite/%d' % global_cfg.project_id, data)
         global_cfg.suite_id = suite_id['id']
-        print(global_cfg.suite_id)
+      #  print(global_cfg.suite_id)
         return int(suite_id['id'])
 
     def update_result_with_steps(self,caseId, result, comment):

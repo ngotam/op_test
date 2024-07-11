@@ -1,4 +1,6 @@
 import ssl
+from core_framework.config import params
+
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -8,11 +10,12 @@ import json, base64
 
 class APIClient:
 	def __init__(self, base_url):
-		self.user = 'alpa.sanghavi@seagate.com'
+		self.user = params.testrail_user
 		self.password = ''
 		if not base_url.endswith('/'):
 			base_url += '/'
 		self.__url = base_url + 'index.php?/api/v2/'
+
 
 	#
 	# Send Get
